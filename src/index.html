@@ -1,0 +1,553 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../index.css">
+
+</head>
+<style>
+
+</style>
+
+<body>
+  <!-- text  start-->
+  <div>
+    <div class="flex mt-4 justify-between">
+      <p class="text-gray-500 text-xl ml-7">Let's talk! <span class="font-extrabold">+57 444 11 00 35</span></p>
+      <p class="text-gray-500 text-xl mr-9">Free shipping on a purchase value of $200</p>
+      <div class="flex gap-3 mt-2 mr-9">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <!-- text end -->
+    <hr class="mt-5">
+    <!-- nav start -->
+    <nav class="flex justify-between my-8 pl-5">
+      <img src="../images/main-logo.png" class="ml-2">
+      <div class="flex justify-between gap-4">
+        <div>
+          <p class="text-xl mr-16 mt-5 hover:text-blue-400 transition duration-500 ">Home <i
+              class="fa-solid fa-angle-down"></i>
+          </p>
+        </div>
+
+        <div>
+          <p class="text-xl mr-16 mt-5 hover:text-blue-400 transition duration-500 ">About</i></p>
+        </div>
+
+        <div>
+          <p class="text-xl mr-16 mt-5 hover:text-blue-400 transition duration-500 ">Shop <i
+              class="fa-solid fa-angle-down"></i>
+          </p>
+        </div>
+
+        <div>
+          <p class="text-xl mr-16 mt-5 hover:text-blue-400 transition duration-500 ">Pages <i
+              class="fa-solid fa-angle-down"></i></p>
+        </div>
+
+        <div>
+          <p class="text-xl mr-16 mt-5 hover:text-blue-400 transition duration-500 ">Blog <i
+              class="fa-solid fa-angle-down"></i>
+          </p>
+        </div>
+
+        <div>
+          <p class="text-xl mr-16 mt-5 hover:text-blue-400 transition duration-500 ">Contact</p>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- nav fin   -->
+
+    <!-- banner -->
+    <article class="bg-cover bg-center h-screen w-full p-10" style="background-image: url('../images/banner1.jpg');">
+      <div class="grid grid-flow-row">
+        <div>
+          <p class="text-[6rem] font-extrabold">Summer</p>
+        </div>
+        <div class="mt-[-2.4rem]">
+          <p class="text-[6rem] font-extrabold">Collection</p>
+        </div>
+      </div>
+      <aside class="mt-5">
+        <p class="text-[1.25rem] text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.Omnis</p>
+        <p class="text-[1.25rem] text-gray-400">perspiciatisitaque seddolorem quasi.</p>
+      </aside><br><br>
+      <!-- div button show now -->
+
+      <button id="button">
+
+        <div class="text" id="text">
+          SHOP IT NOW
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+        </svg>
+      </button>
+    </article>
+    <!-- banner end -->
+
+    <!-- Featured Products  start -->
+    <div class="flex justify-between gap-3 p-14">
+      <h2 class="text-[3.6rem] font-medium">Featured Products</h2>
+      <p class="ml-10">
+        <button id="p-button" class="mt-3">
+
+          <div class="text" id="p-text">
+            View All Products
+          </div>
+
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
+          </svg>
+        </button>
+      </p>
+    </div>
+    <!-- Featured Products  fin -->
+
+
+
+    <!-- div product  -->
+    <div class="grid grid-cols-4 place-items-center">
+
+      <article class="p-3 border border-solid border-gray-300 rounded-lg">
+        <img src="../images/product-item1.jpg" class="w-[18.371rem] h-[22.31rem]">
+      </article>
+      <article class="p-3 border border-solid border-gray-300 rounded-lg">
+        <img src="../images/product-item2.jpg" class="w-[18.371rem] h-[22.31rem]">
+      </article>
+      <article class="p-3 border border-solid border-gray-300 rounded-lg">
+        <img src=" ../images/product-item3.jpg" class="w-[18.371rem] h-[22.31rem]">
+      </article>
+      <article class="p-3 border border-solid border-gray-300 rounded-lg">
+        <img src=" ../images/product-item4.jpg" class="w-[18.371rem] h-[22.31rem]">
+      </article>
+      <article class="p-3">
+        <p class="text-[1.9rem] font-semibold">Full Sleeve Cover Shirt</p>
+        <p class="text-center text-[#497da8] text-4xl">$40.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.9rem] font-semibold">volunter Half blue</p>
+        <p class="text-center text-[#497da8] text-4xl">$38.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.9rem] font-semibold">Double yellow Short</p>
+        <p class="text-center text-[#497da8] text-4xl">$44.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.9rem] font-semibold">Long Belly Grey Pant</p>
+        <p class="text-center text-[#497da8] text-4xl">$33.00</p>
+      </article>
+    </div><br><br><br><br><br><br>
+
+    <!-- collection items start -->
+    <div class="grid grid-cols-2 ml-20 place-items-center">
+
+      <div class="bg-cover bg-[30%] h-screen rounded-xl text-center"
+        style="background-image: url('../images/collection-item1.jpg');height:697px;width: 660px;">
+        <div class="flex flex-col items-end pr-[5rem] mt-[8rem]">
+          <p class="text-xl text-gray-500 text-center">CASUAL COLLECTION</p>
+          <div class="block text-[5rem] font-extrabold mt-5">
+            <p>Street</p>
+            <p class="mt-[-1.9rem]">Wear.</p>
+          </div>
+          <p>
+          <p class="text-xl text-gray-600">dolor sit amet consectetur</p>
+          <p class="text-xl text-gray-600">deleniti consequuntur, sed</p>
+          <p class="text-xl text-gray-600">officia sequi quasi alias</p>
+          <p class="text-xl text-gray-600">numquam maxime</p>
+          <button class="flex mt-[2rem] gap-2" id="button-shop-collection">
+            <div class="text-xl font-[600]" id="shop-collection-text">
+              Shop Collection
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6 mt-1">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+              </path>
+            </svg>
+          </button>
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="grid grid-rows-2 gap-12">
+
+        <div class="bg-cover bg-center h-screen mt-[-0.3rem] rounded-xl flex flex-col p-6 "
+          style="background-image: url('../images/collection-item2.jpg');width:509px;height:320px">
+          <aside class="flex flex-col p-[1.3rem] pr-2">
+            <p class="text-xl text-gray-500 font-[100]">BASIC COLLECTION</p>
+            <div>
+              <p class="font-[900] text-5xl font-[Arial]">Basic </p>
+              <p class="font-[900] text-5xl font-[Arial]">Shoes.</p>
+            </div>
+            <button class="flex mt-[2rem] gap-2" id="button-shop-collection">
+              <div class="text-xl font-[600]" id="shop-collection-text">
+                Shop Collection
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mt-1">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+                </path>
+              </svg>
+            </button>
+          </aside>
+        </div>
+        <div class="bg-cover bg-center h-screen rounded-xl"
+          style="background-image: url('../images/collection-item3.jpg');width:509px;height:320px">
+
+          <aside class="flex flex-col p-[1.3rem] mx-5 mt-[56px]">
+            <p class="text-xl text-gray-500 font-[100]">BASIC COLLECTION</p>
+            <div>
+              <p class="font-[900] text-5xl font-[Arial]">Basic </p>
+              <p class="font-[900] text-5xl font-[Arial]">Shoes.</p>
+            </div>
+            <button class="flex mt-[2rem] gap-2" id="button-shop-collection">
+              <div class="text-xl font-[600]" id="shop-collection-text">
+                Shop Collection
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 mt-1">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+                </path>
+              </svg>
+            </button>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- collection end -->
+
+  <!-- search bar and discount -->
+  <br><br><br><br><br>
+  <main class="flex flex-col gap-[3.8rem] mx-[4rem] ">
+    <p class="text-[3rem] font-[700] font-[arial]">Get 25% Off Discount Coupons</p>
+    <article class=>
+
+      <p class="text-[1.2rem] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst amet,
+        metus,
+        sit massa posuere maecenas. At
+      </p>
+      <p class="text-[1.2rem] text-gray-500">tellus ut nunc amet vel egestas.</p>
+    </article>
+    <div id="btn-group">
+      <input type="email" style="width:45%" placeholder="Enter your email adress her">
+      <button style="width:15%">SUBSCRIBE NOW</button>
+    </div>
+  </main>
+  <br><br><br><br><br><br>
+  <div class="p-[3rem] bg-gray-100 h-[118rem]">
+    <p class="text-[3rem] font-[700] font-[arial] ml-7">Best Selling Products</p>
+    <nav class="flex gap-[3.5rem] ml-7 mt-7 cursor-pointer">
+      <span class="text-gray-500 font-medium text-[1.1rem] hover:text-blue-400 transition duration-300">All</span>
+      <span class="text-gray-500 font-medium text-[1.1rem] hover:text-blue-400 transition duration-300">Shoes</span>
+      <span class="text-gray-500 font-medium text-[1.1rem] hover:text-blue-400 transition duration-300">TShirts</span>
+      <span class="text-gray-500 font-medium text-[1.1rem] hover:text-blue-400 transition duration-300">Pants</span>
+      <span class="text-gray-500 font-medium text-[1.1rem] hover:text-blue-400 transition duration-300">Hoddie</span>
+      <span class="text-gray-500 font-medium text-[1.1rem] hover:text-blue-400 transition duration-300">Outer</span>
+      <span class="text-gray-500 font-medium text-[1.1rem] hover:text-blue-400 transition duration-300">Jackets</span>
+      <span
+        class="text-gray-500 font-medium text-[1.1rem] hover:text-blue-400 transition duration-300">Accessories</span>
+    </nav>
+    <aside class="grid grid-cols-4 place-items-center my-6">
+      <!-- sellenig product 1 - 4 start  -->
+      <article class="border border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products1.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products2.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products3.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products4.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Half Sleeve T-Shirt</p>
+        <p class="text-center text-[#497da8] text-3xl">$20.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Stylish Grey T-Shirt</p>
+        <p class="text-center text-[#497da8] text-3xl">$35.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Silk White Shirt</p>
+        <p class="text-center text-[#497da8] text-3xl">$40.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Grunge Hoodie</p>
+        <p class="text-center text-[#497da8] text-3xl">$45.00</p>
+      </article>
+
+      <!-- sellenig product 1 - 4 end  -->
+
+
+      <!-- sellenig product 5-8 start  -->
+
+      <article class="border border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products5.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products6.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products7.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products8.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Full Sleeve Jeans Jacket</p>
+        <p class="text-center text-[#497da8] text-3xl">$20.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Grey Check Coat</p>
+        <p class="text-center text-[#497da8] text-3xl">$35.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Long Sleeve T-Shirt</p>
+        <p class="text-center text-[#497da8] text-3xl">$40.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Half Sleeve T-Shirt</p>
+        <p class="text-center text-[#497da8] text-3xl">$45.00</p>
+      </article>
+
+      <!-- sellenig product 5-8 end  -->
+
+      <!-- sellenig product 13-16 start  -->
+
+      <article class="border border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products13.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products14.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products15.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem] bg-gray-100">
+        <img src="../images/selling-products16.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Orange White Nike</p>
+        <p class="text-center text-[#497da8] text-3xl">$70.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Running Shoe</p>
+        <p class="text-center text-[#497da8] text-3xl">$82.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Tennis Shoe</p>
+        <p class="text-center text-[#497da8] text-3xl">$65.00</p>
+      </article>
+      <article class="p-3">
+        <p class="text-[1.7rem] font-semibold">Nike Brand Shoe</p>
+        <p class="text-center text-[#497da8] text-3xl">$90.00</p>
+      </article>
+
+      <!-- sellenig product 13-16 end-->
+    </aside>
+  </div>
+  <!-- paragraphe quote start -->
+  <div>
+    <div id="quote-right">
+      <i class="fa-solid fa-quote-right after absolute text-[12rem] text-gray-300 left-0 p-7 my-[4.5rem]"></i>
+    </div>
+    <article class="p-[8rem] ml-[9.2rem] flex flex-col gap-5">
+      <p class="text-[#363636] text-2xl font-[350]">“Dignissim massa diam elementum habitant fames. Id nullam
+        pellentesque</p>
+      <p class="text-[#363636] text-2xl font-[350]">nisi, eget cursus dictumst pharetra, sit. Pulvinar laoreet id
+        porttitor</p>
+      <p class="text-[#363636] text-2xl font-[350]">egestas dui urna. Porttitor nibh magna dolor ultrices iaculis sit
+        iaculis.”</p>
+      <p id="by-john">By John Smith</p>
+
+      <main class="flex gap-6">
+        <i class="fa-solid fa-arrow-left   text-[#706e6e] text-[1.34rem]"></i>
+        <i class="fa-solid fa-arrow-right  text-[#706e6e] text-[1.34rem]"></i>
+      </main>
+    </article>
+    <aside class="p-[2.6rem]">
+      <p id="Flash-Sales">
+        Flash Sales
+      </p>
+    </aside>
+  </div>
+  <!-- paragraphe quote end -->
+
+  <!-- article sold fo 10% start -->
+  <article>
+    <main class="grid grid-cols-4">
+      <article class="border border-gray-300 rounded-lg p-3 m-[1rem]" id="off-10">
+        <img src="../images/selling-products9.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem]" id="off-10">
+        <img src="../images/selling-products10.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem]" id="off-10">
+        <img src="../images/selling-products11.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+      <article class="border border-solid border-gray-300 rounded-lg p-3 m-[1rem]" id="off-10">
+        <img src="../images/selling-products12.jpg" class="w-[18.371rem] h-[22.31rem] object-cover">
+      </article>
+
+      <article class="p-3 text-center">
+        <p class="text-[1.7rem] font-semibold">Full Sleeve Cover Shirt</p>
+        <div class="flex gap-4 ml-7">
+          <p class="text-xl text-gray-400 mt-3 text-center"><strike>$40.00</strike></p>
+          <p class="text-center text-[#497da8] text-3xl">$30.00</p>
+
+        </div>
+      </article>
+      <article class="p-3 text-center">
+        <p class="text-[1.7rem] font-semibold">Long Sleev T-Shirt</p>
+        <div class="flex gap-4 ml-7">
+          <p class="text-xl text-gray-400 mt-3 text-center"><strike>$70.00</strike></p>
+          <p class="text-center text-[#497da8] text-3xl">$60.00</p>
+
+        </div>
+      </article>
+      <article class="p-3 text-center">
+        <p class="text-[1.7rem] font-semibold">Grey Check Coat</p>
+        <div class="flex gap-4 ml-7">
+          <p class="text-xl text-gray-400 mt-3 text-center"><strike>$50.00</strike></p>
+          <p class="text-center text-[#497da8] text-3xl">$40.00</p>
+        </div>
+      </article>
+      <article class="p-3 text-center">
+        <p class="text-[1.7rem] font-semibold">Silk White Shirt</p>
+        <div class="flex gap-4 ml-7">
+          <p class="text-xl text-gray-400 mt-3 text-center"><strike>$80.00</strike></p>
+          <p class="text-center text-[#497da8] text-3xl ">$70.00</p>
+        </div>
+      </article>
+    </main>
+
+  </article>
+
+
+  <!-- article sold fo 10% end -->
+  <br><br><br><br><br><br>
+
+  <!-- model picture -->
+
+  <main class="p-10">
+    <div class="bg-cover h-screen p-[7rem] rounded-xl" style="background-image: url(../images/model.jpg);">
+      <div class="ml-[34rem] mt-[4.3rem]">
+        <p class="text-[#8d8d8d] font-[300] text-[1.15rem]">DENIM COLLECTION</p>
+        <div class="flex flex-col">
+          <p class="font-extrabold text-[#191919]" style="font-size:5rem; font-family:'Inter',sans-serif">The Casual</p>
+          <p class="font-extrabold mt-[-2.7rem] text-[#191919]" style="font-size:5rem; font-family:'Inter',sans-serif">
+            Selection.
+          </p>
+        </div>
+
+
+        <div class="flex flex-col gap-1">
+          <p class="text-[#8d8d8d] text-[1.15rem]">Vel non viverra ligula odio ornare turpis mauris. Odio</p>
+          <p class="text-[#8d8d8d] text-[1.15rem]">aliquam, tincidunt ut vitae elit risus. Tempor egestas</p>
+          <p class="text-[#8d8d8d] text-[1.15rem]">condimentum et ac rutrum dui, odio.</p>
+        </div>
+
+
+        <p>
+          <button class="flex mt-[2rem] gap-2" id="button-shop-collection">
+            <div class="text-xl font-[600]" id="shop-collection-text">
+              Shop Collection
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6 mt-1">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+              </path>
+            </svg>
+          </button>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- model picture end -->
+
+
+
+  <!-- QUOTE OF TODAY START -->
+
+  <main class="mt-[10rem]">
+
+    <div class="text-center flex flex-col gap-[3rem]">
+      <p class="text-[3.1rem] font-bold">Quote Of The Day</p>
+      <article>
+        <p class="text-[2rem] text-[#8d8d8d] font-[400]">"It's true, I don't like the whole cutoff-</p>
+        <p class="text-[2rem] text-[#8d8d8d] font-[400]">shorts-and-T-shirt look, but I think you can</p>
+        <p class="text-[2rem] text-[#8d8d8d] font-[400]">look fantastic in casual clothes."</p>
+      </article>
+      <p class="mb-4 text-[#8d8d8d] font-[400] text-2xl">- Dr. Seuss</p>
+    </div>
+
+  </main>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <hr>
+  <br><br><br><br><br><br><br>
+
+  <!-- QUOTE OF TODAY END -->
+
+  <!-- OUR JOURNAL START -->
+  <div class="flex justify-between">
+    <div class="text-5xl font-bold ml-[2.3rem]">Our Journal</div>
+    <aside class="mt-3">
+      <button class="flex mt-[2rem] gap-2 mr-[4rem]" id="button-shop-collection">
+        <div class="text-xl font-[600] mt-[-2rem]" id="shop-collection-text">
+          Read All Articles
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6  mt-[-1.74em]">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+          </path>
+        </svg>
+      </button>
+    </aside>
+  </div>
+  <!-- OUR JOURNAL END -->
+
+  <div class="grid grid-cols-3 p-12 gap-[2rem]">
+    <article id="zoom-effect">
+      <img src="../images/post-img1.jpg" alt="post" class="object-cover w-[401px] h-[245px] rounded-lg">
+    </article>
+    <article id="zoom-effect">
+      <img src="../images/post-img2.jpg" alt="post" class="object-cover w-[401px] h-[245px] rounded-lg">
+    </article>
+    <article id="zoom-effect">
+      <img src="../images/post-img3.jpg" alt="post"
+        class="object-cover w-[401px] h-[245px] rounded-lg hover:transition-all">
+    </article>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
